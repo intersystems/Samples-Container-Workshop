@@ -1,0 +1,11 @@
+    // Unexpire passwords to simplify dev mode. Comment these two lines for Production use
+    zn "%SYS"
+    Do ##class(Security.Users).UnExpireUserPasswords("*")
+
+    zn "USER"
+    // Load the IRIS Classes
+    do $System.OBJ.LoadDir("/home/irisowner/app/src","ck",,1)
+
+    // Register the CSP application is done in the merge.cpf
+
+    halt

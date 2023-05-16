@@ -1,0 +1,3 @@
+[Actions]
+CreateApplication:Name=/rest/coffeemakerapp,MatchRoles=:%ALL,NameSpace=USER,DispatchClass=Demo.CoffeeMakerRESTServer,AutheEnabled=64
+CreateApplication:Name=/csp/coffee,MatchRoles=:%ALL,NameSpace=USER,Path=/home/irisowner/app/web,AutheEnabled=64,ServeFiles=1,Recurse=1
