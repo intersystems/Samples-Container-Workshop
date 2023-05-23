@@ -2,7 +2,7 @@ version: '3.7'
 services:
   # iris container
   iris:
-    image: coffee:3
+    image: coffee:v3
     init: true
     container_name: iris
     hostname: iris
