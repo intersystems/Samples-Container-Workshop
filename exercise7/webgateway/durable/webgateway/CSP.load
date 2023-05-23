@@ -1,0 +1,1 @@
+LoadModule csp_module_sa "${ISC_PACKAGE_INSTALLDIR}/bin/CSPa24.so"
