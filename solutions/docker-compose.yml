@@ -1,0 +1,18 @@
+services:
+   irisone:
+      image: containers.intersystems.com/intersystems/iris-community:2023.1.0.229.0
+      hostname: irisone
+      ports:
+      # 1972 is the SuperServer port by default
+      - "9091:1972"
+      # 52773 is the web server / management portal port
+      - "9092:52773"
+
+   iristwo:
+      image: containers.intersystems.com/intersystems/iris-community:2023.1.0.229.0
+      hostname: iristwo
+      ports:
+      # 1972 is the SuperServer port by default
+      - "9095:1972"
+      # 52773 is the web server / management portal port
+      - "9096:52773"
