@@ -1,6 +1,6 @@
 # Samples-Container-Workshop
 
-This repository is a companion to the Containers Workshop at Global Summit 2023.
+This repository is a companion to the *Working with InterSystems IRIS in Containers* exercise. A version of this exercise was originally offered at InterSystems Global Summit 2023.
 
 This workshop contains two parts. In Part 1, you will learn how to interact with basic containers and use InterSystems IRIS in containers. In Part 2, you will build your own containerized InterSystems IRIS application based on a sample app for selling coffee makers.
 
@@ -16,6 +16,6 @@ By the time you have finished the workshop, you will be able to:
 * Update containers in place while preserving your application and data.
 
 Throughout this workshop, you will complete exercises and watch accompanying presentations from
-InterSystems experts. Supporting materials will be linked in the provided slide deck in case you miss any of the presentations or wish to revisit the materials later.
+InterSystems experts.
 
-Enjoy the Containers Workshop!
+Enjoy the exercise!
