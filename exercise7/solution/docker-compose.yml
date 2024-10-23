@@ -17,7 +17,7 @@ services:
 
   # web gateway container
   webgateway:
-    image: containers.intersystems.com/intersystems/webgateway:2023.1.0.229.0
+    image: containers.intersystems.com/intersystems/webgateway:2023.1
     init: true
     container_name: webgateway
     hostname: webgateway

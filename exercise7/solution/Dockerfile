@@ -1,4 +1,4 @@
-FROM containers.intersystems.com/intersystems/iris-community:2023.1.0.229.0
+FROM containers.intersystems.com/intersystems/iris-community:2023.1
 
 COPY app app
 COPY iris.script iris.script
